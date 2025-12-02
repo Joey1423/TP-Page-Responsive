@@ -16,12 +16,15 @@ header img {
     height: 70px;
 }
 
-.hero {
-    background-image: url('Image de fond.avif');
+body {
+    background-image: url("Image de fond.avif");
     background-size: cover;
     background-position: center;
-    color: rgb(15, 59, 84);
-    text-align: center;
-    padding: 100px 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+.txt {
+    text-align: center;
+    color: rgb(156, 152, 156);
+}
