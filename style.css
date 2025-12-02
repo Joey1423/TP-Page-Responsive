@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9cb7ce;
+    padding: 20px 40px;
+    color: white;
+}
+
+header img {
+    height: 70px;
+}
+
+.hero {
+    background-image: url('Image de fond.avif');
+    background-size: cover;
+    background-position: center;
+    color: rgb(15, 59, 84);
+    text-align: center;
+    padding: 100px 20px;
+}
+
