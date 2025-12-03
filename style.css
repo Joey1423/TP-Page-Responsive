@@ -28,3 +28,16 @@ body {
     text-align: center;
     color: rgb(156, 152, 156);
 }
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.galerie {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 photos par ligne */
+    gap: 20px; /* espace entre les photos */
+    padding: 20px;
+}
